@@ -1,14 +1,17 @@
+
 /* Page wrapper */
-.signup-wrapper {
+.signup-wrapper,
+.login-wrapper,
+.welcome-wrapper {
     min-height: 100vh;
-    background-color: #f0f2f5;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /* Form styling */
-.signup-form {
+.signup-form,
+.login-form {
     background-color: #ffffff;
     padding: 40px;
     border-radius: 16px;
@@ -18,7 +21,8 @@
 }
 
 /* Heading */
-.signup-form h2 {
+.signup-form h2,
+.login-form h2 {
     text-align: center;
     margin-bottom: 24px;
     font-size: 26px;
@@ -55,7 +59,8 @@
 }
 
 /* Button */
-.signup-form button {
+.signup-form button,
+.login-form button {
     width: 100%;
     padding: 12px;
     background-color: #007bff;
@@ -68,5 +73,14 @@
     transition: background-color 0.3s ease;
 }
 
-.signup-form button:hover {
-    background-color: #0056b3; }
+.signup-form button:hover,
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Welcome message */
+.welcome-message {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
